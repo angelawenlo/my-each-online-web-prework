@@ -6,8 +6,3 @@ def my_each(array)
   end
   return array
 end
-
-collection = [1, 2, 3, 4]
-my_each(collection) do |i|
-  puts "Hi #{i}"
-end
